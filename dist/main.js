@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"body {\\n  background: green; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"* {\\n  border: solid 1px red !important; }\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -121,6 +121,30 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/components/home/home.js":
+/*!*************************************!*\
+  !*** ./src/components/home/home.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar Home = function () {\n  'use strict';\n\n  var divHome = document.createElement(\"div\");\n  var divHomeText = document.createElement(\"div\");\n  var title = document.createElement(\"h1\");\n  var content = document.createElement(\"p\");\n  divHome.id = \"home\";\n  divHome.classList.add(\"hero-image\");\n  title.textContent = \"My restaurant\";\n  content.textContent = \"This is the best food ever you can try\";\n  divHomeText.appendChild(title);\n  divHomeText.appendChild(content);\n  divHome.appendChild(divHomeText);\n  return divHome;\n}();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Home);\n\n//# sourceURL=webpack:///./src/components/home/home.js?");
+
+/***/ }),
+
+/***/ "./src/components/navbar/navbar.js":
+/*!*****************************************!*\
+  !*** ./src/components/navbar/navbar.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nvar Navbar = function () {\n  'use strict';\n\n  var nav = document.createElement(\"nav\");\n  var ul = document.createElement(\"ul\");\n  var liHome = document.createElement(\"li\");\n  var liMenu = document.createElement(\"li\");\n  var liBooking = document.createElement(\"li\");\n  var aHome = document.createElement(\"a\");\n  var aMenu = document.createElement(\"a\");\n  var aBooking = document.createElement(\"a\");\n  ul.classList.add(\"navbar\");\n  aHome.textContent = \"Home\";\n  aHome.href = \"#home\";\n  liHome.classList.add(\"nav-link\");\n  liHome.appendChild(aHome);\n  aMenu.textContent = \"Menu\";\n  aMenu.href = \"#menu\";\n  liMenu.classList.add(\"nav-link\");\n  liMenu.appendChild(aMenu);\n  aBooking.textContent = \"Booking\";\n  aBooking.href = \"#booking\";\n  liBooking.classList.add(\"nav-link\");\n  liBooking.appendChild(aBooking);\n  ul.appendChild(liHome);\n  ul.appendChild(liMenu);\n  ul.appendChild(liBooking);\n  nav.appendChild(ul);\n  return nav;\n}();\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Navbar);\n\n//# sourceURL=webpack:///./src/components/navbar/navbar.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -129,7 +153,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\nconsole.log(\"Hello Webpack\");\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_navbar_navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/navbar/navbar */ \"./src/components/navbar/navbar.js\");\n/* harmony import */ var _components_home_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/home/home */ \"./src/components/home/home.js\");\n\n\n\nvar content = document.getElementById('content');\ncontent.appendChild(_components_navbar_navbar__WEBPACK_IMPORTED_MODULE_1__[\"default\"]);\ncontent.appendChild(_components_home_home__WEBPACK_IMPORTED_MODULE_2__[\"default\"]);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
