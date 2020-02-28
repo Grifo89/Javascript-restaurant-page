@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
 
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
@@ -30,7 +30,7 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
-      }
+      },
     ],
   },
 };

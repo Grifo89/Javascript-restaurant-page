@@ -15,7 +15,6 @@ const Home = (function() {
 
   divHomeText.appendChild(title)
   divHomeText.appendChild(content)
-
   divHome.appendChild(divHomeText)
 
   return divHome

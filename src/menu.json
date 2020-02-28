@@ -1,0 +1,58 @@
+{
+  "Beef": [
+    {
+      "title": "Beef dish",
+      "src": "",
+      "description": "This is a delicious beef dish"
+    },
+    {
+      "title": "Beef dish",
+      "src": "",
+      "description": "This is a delicious beef dish"
+    },
+    {
+      "title": "Beef dish",
+      "src": "",
+      "description": "This is a delicious beef dish"
+    }
+  ],
+  "Seafood": [
+    {
+      "title": "Seafood dish",
+      "src": "",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "",
+      "description": "This is a delicious Seafood dish"
+    }
+  ],
+  "Chicken": [
+    {
+      "title": "Chicken dish",
+      "src": "",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "",
+      "description": "This is a delicious Chicken dish"
+    }
+  ]
+}
