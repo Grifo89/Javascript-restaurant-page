@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
 
-  mode: 'production',
+  mode: 'development',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
@@ -18,7 +18,7 @@ module.exports = {
           // Translates CSS into CommonJS
           'css-loader',
           // Compile Sass to CSS
-          'sass-loader'
+          'sass-loader',
         ],
       },
       {
@@ -27,9 +27,13 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env']
-          }
-        }
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+      {
+        test: /\.jpg$/,
+        loader: 'file-loader',
       },
     ],
   },

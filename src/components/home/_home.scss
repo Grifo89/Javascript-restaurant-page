@@ -1,0 +1,35 @@
+.hero-image {
+  clear: both;
+  margin-top: 10vh;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    h1 {
+      font-size: 5rem;
+      font-family: 'Dancing Script';
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (max-width: $bp-tablet) {
+    margin-top: 11vh;
+  }
+
+  @media screen and (max-width: $bp-mobile) {
+
+  }
+}

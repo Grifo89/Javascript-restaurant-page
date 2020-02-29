@@ -1,11 +1,26 @@
 @import 'reset';
 
-*{
-  border: solid 1px red !important;
-}
 
+// *{
+//   border: solid 1px red !important;
+// }
+
+// Colores
 $Gold: #F7D330;
 $Blue-green: #3AA3A0;
 $Yellow: #F6C324;
 $Acua: #8AE2E0;
 $Card-font-color: #0e1318eb;
+
+// Brake points
+$bp-tablet: 768px;
+$bp-mobile: 460px;
+
+* + * {
+  box-sizing: border-box;
+}
+
+@import 'components/navbar/navbar';
+@import 'components/home/home';
+@import 'components/menu/menu';
+@import 'components/card/card';
