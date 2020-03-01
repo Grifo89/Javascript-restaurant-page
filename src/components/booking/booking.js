@@ -7,7 +7,7 @@ const Booking = (function () {
   bookingTitle.classList.add('booking-title');
   bookingTitle.textContent = 'Booking';
   bookingText.classList.add('booking-text');
-  bookingText.textContent = 'Take a changes to try new things';
+  bookingText.textContent = 'Take a chance to try new things';
   bookingButton.classList.add('booking-button');
   bookingButton.textContent = 'Booking now';
   bookingContainer.classList.add('booking-container');
