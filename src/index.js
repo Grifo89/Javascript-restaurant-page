@@ -9,7 +9,28 @@ const content = document.getElementById('content');
 
 content.appendChild(Navbar);
 content.appendChild(Home.Home);
-content.appendChild(Menu.Title);
-content.appendChild(Menu.List);
-content.appendChild(Booking);
 Home.carousel();
+const links = document.querySelectorAll('.nav-link > a');
+const nav = document.querySelector('nav');
+links.forEach((item) => {
+  if (item.textContent === 'Home') {
+    item.addEventListener('click', (e) => {
+      nav.nextSibling.remove();
+      content.appendChild(Home.Home);
+      Home.carousel();
+      e.preventDefault();
+    });
+  } else if (item.textContent === 'Menu') {
+    item.addEventListener('click', (e) => {
+      nav.nextSibling.remove();
+      content.appendChild(Menu.List);
+      e.preventDefault();
+    });
+  } else if (item.textContent === 'Booking') {
+    item.addEventListener('click', (e) => {
+      nav.nextSibling.remove();
+      content.appendChild(Booking);
+      e.preventDefault();
+    });
+  }
+});
