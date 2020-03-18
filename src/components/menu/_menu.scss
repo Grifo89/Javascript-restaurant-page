@@ -1,0 +1,30 @@
+.menu-title {
+  color: $Blue-green;
+  font-family: 'Dancing Script';
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.menu-container {
+  .menu-subtitle{
+    color: $Card-font-color;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 2.3rem;
+    margin: 1rem 0 1rem 3rem;
+  }
+  .menu-list {
+    // overflow: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+
+    .menu-item{
+      display: inline-block;
+      font-weight: bold;
+      font-style: oblique;
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "Beef": [
+    {
+      "title": "Buffalo Hamburger",
+      "src": "./images/beef/beef1.jpg",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "title": "asparagus",
+      "src": "./images/beef/beef2.jpg",
+      "description": "Lorem ipsum dolor sit amet"
+    },
+    {
+      "title": "Beef dish",
+      "src": "./images/beef/beef3.jpg",
+      "description": "This is a delicious beef dish"
+    },
+    {
+      "title": "Beef dish",
+      "src": "./images/beef/beef4.jpg",
+      "description": "This is a delicious beef dish"
+    },
+    {
+      "title": "Beef dish",
+      "src": "./images/beef/beef5.jpg",
+      "description": "This is a delicious beef dish"
+    },
+    {
+      "title": "Beef dish",
+      "src": "./images/beef/beef6.jpg",
+      "description": "This is a delicious beef dish"
+    },
+    {
+      "title": "Beef dish",
+      "src": "./images/beef/beef7.jpg",
+      "description": "This is a delicious beef dish"
+    }
+  ],
+  "Seafood": [
+    {
+      "title": "Seafood dish",
+      "src": "./images/seafood/seafood1.jpg",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "./images/seafood/seafood2.jpg",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "./images/seafood/seafood3.jpg",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "./images/seafood/seafood4.jpg",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "./images/seafood/seafood5.jpg",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "./images/seafood/seafood6.jpg",
+      "description": "This is a delicious Seafood dish"
+    },
+    {
+      "title": "Seafood dish",
+      "src": "./images/seafood/seafood7.jpg",
+      "description": "This is a delicious Seafood dish"
+    }
+  ],
+  "Chicken": [
+    {
+      "title": "Chicken dish",
+      "src": "./images/chicken/chicken1.jpg",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "./images/chicken/chicken2.jpg",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "./images/chicken/chicken3.jpg",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "./images/chicken/chicken4.jpg",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "./images/chicken/chicken5.jpg",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "./images/chicken/chicken6.jpg",
+      "description": "This is a delicious Chicken dish"
+    },
+    {
+      "title": "Chicken dish",
+      "src": "./images/chicken/chicken7.jpg",
+      "description": "This is a delicious Chicken dish"
+    }
+  ]
+}
